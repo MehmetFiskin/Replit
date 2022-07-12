@@ -1,5 +1,7 @@
 package questions;
 
+import java.util.Scanner;
+
 public class QA_05 {
     /* 3----elirlenen sayının 1 den 10 a kadar çarpım sonuçlarını yapan Java programını yazınız.
 
@@ -17,11 +19,16 @@ public class QA_05 {
 
      */
     public static void main(String[] args) {
-        for (int i = 1; i <=5; i++) {
-            for (int j = 1; j <=10; j++) {
-                System.out.println(j+"x");
-            }
-            System.out.println(i);
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Bir Sayı Girin:");
+
+        int num = scan.nextInt();
+        int sonuc=0;
+        for (int i = 0; i <=10; i++) {
+            sonuc=num*i;
+            System.out.println(num+" x "+i+" = "+sonuc);
+
+
         }
 
     }

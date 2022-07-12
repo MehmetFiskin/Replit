@@ -35,9 +35,9 @@
     5 x 10 = 50
     ************************************************************************
     4----1 den 10 a kadar her satırda bir artırarak aşağıdaki şekli oluşturan Java kodunu yazınız.
-​
+
      Beklenen çıltı:
-​
+
     1
     12
     123
@@ -48,7 +48,7 @@
     12345678
     123456789
     12345678910
-​
+
     ************************************************************************
     5-----Aşağıdaki elmas deseni görüntüsünü çizen java kodunu yazınız.
     Test Data:
@@ -68,28 +68,28 @@
          ***
           *
       ************************************************************************
-​
+
      6----     Kullanıcıdan bir harf girmesini isteyiniz. Girilen harf sesli ise Sesli harf olduğunu,
            değilse sessiz harf olduğunu ekrana yazdırsın. Girdiği değer harf değilse yada
             1 karakterden fazla ise hata mesajı göstersin. (Test girilen harfi büyük yada küçüklüğüne duyarlıdır.)
-​
+
     Sesli harfler: a,e,i,o,u
-​
+
     Test Data:
     a
-​
+
     Beklenen Çıktı:
     a harfi sesli harfdir.
-​
+
     Test Data:
     d
-​
+
     Beklenen Çıktı:
     d harfi sesiz harftir.
-​
+
     Test Data:
     we  yada %
-​
+
     Beklenen Çıktı:
     Yanlis karakter girdiniz!
       ************************************************************************
